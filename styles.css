@@ -1,0 +1,66 @@
+.container {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  color: #d6c8ff;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4em;
+  text-align: center;
+}
+
+.details {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: "Freckle Face", sans-serif;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+body {
+  background-color: #334455;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Righteous", sans-serif
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+
+button {
+  border-radius: 0.4em;
+  border: none;
+  padding: 0.5em 1em;
+  font-family: inherit;
+  font-size: 1em;
+  color: inherit;
+  background-color: #219653;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+button:active {
+  background-color: #1c653b;
+  transform: translateY(0.4em);
+}
